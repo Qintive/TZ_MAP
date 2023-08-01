@@ -1,0 +1,36 @@
+.route-table-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+  }
+  
+  .route-table {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .route-item {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .route-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .route-item.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+.leaflet-container {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
